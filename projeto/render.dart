@@ -16,6 +16,10 @@ void main(List<String> args) {
   print(q.area());
   print(r.area());
 
+  q.tipo = 'Quadrado';
+  r.tipo = 'Retandulo';
+  c.tipo = 'Circulo';
+
   print(CriaPDF.render(q));
   print(CriaPDF.render(r));
   print(CriaPDF.render(c));
