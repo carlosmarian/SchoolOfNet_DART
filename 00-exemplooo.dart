@@ -5,6 +5,14 @@ class Pessoa{
 
   Pessoa(this.primeiro_nome, this.ultimo_nome);
 
+  /*
+  //acima é a versão resumida, mas as duas são compativeis
+  Pessoa(String primeiro_nome, String ultimo_nome){
+    this.primeiro_nome = primeiro_nome;
+    this.ultimo_nome = ultimo_nome;
+  }
+  */
+
   String nome(){
     return this.primeiro_nome + ' ' + this.ultimo_nome;
   }

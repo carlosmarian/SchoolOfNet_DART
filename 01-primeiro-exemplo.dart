@@ -3,6 +3,7 @@
 class Pessoa{
   String primeiro_nome, ultimo_nome = "";
 
+  //construtor
   Pessoa(this.primeiro_nome, this.ultimo_nome);
 
   String nome(){
