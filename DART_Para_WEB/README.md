@@ -37,5 +37,9 @@ Para executar:
 
 webdev serve
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+
+Para publicar executa:
+
+webdev build
+
+Ele gera os dados no diretório build
