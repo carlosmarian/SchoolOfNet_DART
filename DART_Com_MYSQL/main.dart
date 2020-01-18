@@ -23,7 +23,7 @@ void main(List<String> argumentos)  async {
   parser.addOption('last_name');
   var args = parser.parse(argumentos);
 
-  var conn = await MySql.connect(host: 'db4free.net', db: 'carlosmysql', user: 'carlosmysql', password: 'carlosmysql');
+  var conn = await MySql.connect(host: 'db4free.net', db: 'carlosmysql', user: 'carlosmysql', password: '********');
 
   print('Executando no modo: '+args['mode']);
   switch(args['mode']){
